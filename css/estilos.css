@@ -30,7 +30,7 @@ body {
 .container__figure {
    width: 400px;
    height: 500px;
-   background-image: url(/images/image-product-desktop.jpg);
+   background-image: url("../images/image-product-desktop.jpg");
    object-fit: cover;
    background-size: cover;
    border-radius: 14px 0 0 10px;
@@ -115,7 +115,8 @@ body {
    .container__figure {
       border-radius: 14px 14px 0 0;
       height: 350px;
-      background-image: url(/images/image-product-mobile.jpg);
+      background-image: url('../images/image-product-mobile.jpg');
+
    }
 
    .container__info {
